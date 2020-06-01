@@ -6,7 +6,8 @@ def read_from_hash(hash, key)
   if hash[key]
     puts hash[key]
   else
-    puts nil 
+    puts nil
+  end 
 end
 
 def update_counting_hash(hash, key)
